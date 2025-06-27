@@ -1,0 +1,24 @@
+DAY 1
+I am Jashanpreet kaur from department of Computer Science Engineering.Today is my first day of training as a student of second year. On first day of the training, we learned about different types of companies such as:
+        
+        Product based companies
+        Service based companies
+        Startups
+
+Then we learned about difference between linux and windows operating systems.As linux is an open source , it is free and we can use it anywhere while windows is not an open source.Linux has more security options whereas windows does not have the same level of security.Also,linux provides privacy and is license-free.
+
+Then, we installed linux on our laptops.Here are the steps we followed:
+ 
+        Download Oracle VirtualBox 7.1.10    
+        Download Microsoft Visual Studio C++ 2019
+        Download Ubuntu (Linux) 24.04.2 LTS
+
+Then, we learned that 'LTS' means 'Long Term Support' , '24' represents the year , '04' represents the month , '2' represents the version updated.
+After downloading these files,we discussed about career options in computer science engineering and also talked about productive companies in each career field.
+Then, we came to know about booting and its types.Booting is the process of starting your computer and loading the operating system.
+
+Types of Booting:
+      
+       Cold or Hard Booting: This refers to start a computer from a completely powered-off state.
+       Soft or Warm Booting: This involves restarting a computer without completely cutting off power often done through the operating system.
+
