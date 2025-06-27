@@ -31,6 +31,10 @@ Kernel : It is a computer program that is a core of a computer's operating syste
 
 Shell : It is a program that acts as an interface between the user and the operating system.
 
+
+![Screenshot 2025-06-27 213109](https://github.com/user-attachments/assets/6557021f-f302-4be3-bda3-8d2b1b9ad069)
+
+
 Types of Shell:
 
        Bash - Most common shell (Bourne-Again Shell)
