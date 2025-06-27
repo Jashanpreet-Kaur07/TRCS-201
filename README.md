@@ -75,3 +75,18 @@ Then, we covered several basic shell commands:
 
       whatis: Provides a brief one-line description of a commmand.  
 
+Here are the screenshots of commands which I had practised:
+
+![VirtualBox screenshot2](https://github.com/user-attachments/assets/79d2b312-7ddf-47c5-a922-a9b9cfc07086)
+
+![VirtualBox screenshot3](https://github.com/user-attachments/assets/0f5e6e56-d307-466b-be5b-fee04f283295)
+
+![VirtualBox screenshot 4](https://github.com/user-attachments/assets/48357a71-3891-4d31-bf73-8b7021b9759e)
+
+
+
+
+
+
+
+
