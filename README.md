@@ -28,7 +28,9 @@ DAY - 2
 I am Jashanpreet kaur from department of Computer Science Engineering.Today is my second day of training as a student of second year.We learned about some core concepts such as:
 
 Kernel : It is a computer program that is a core of a computer's operating system with complete control over everything in the system.
+
 Shell : It is a program that acts as an interface between the user and the operating system.
+
 Types of Shell:
 
        Bash - Most common shell (Bourne-Again Shell)
