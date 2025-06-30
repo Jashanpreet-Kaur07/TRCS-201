@@ -93,7 +93,9 @@ Here are the screenshots of commands which I had practised:
 DAY - 3
 
 Linux File Permissions, Redirection & Pipes
+
 Topics covered:
+
 1. File Permissions using chmod
 
     Modified file permissions to control access:
@@ -118,11 +120,11 @@ Topics covered:
 
      Used redirection operators:
 
-     >  overwrite file
+       >  overwrite file
      
        >>  append to file
 
-    <  read input from file
+       <  read input from file
 
 
 
