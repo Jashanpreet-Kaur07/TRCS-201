@@ -106,7 +106,7 @@ Topics covered:
 
        chmod +X filename.sh - make a shell script executable
    
-3. Shell Script Creation (.sh files)
+2. Shell Script Creation (.sh files)
    
      Created basic shell scripts using nano
 
@@ -116,7 +116,7 @@ Topics covered:
 
      Ran scripts using: ./filename.sh
 
-5. Input/Output Redirection
+3. Input/Output Redirection
 
      Used redirection operators:
 
@@ -126,6 +126,9 @@ Topics covered:
 
        <  read input from file
 
+4. Pipes ( | )
+     * Connected commands to filter/process output:
+       
 
 
 
