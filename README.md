@@ -127,6 +127,7 @@ Topics covered:
        <  read input from file
 
 4. Pipes ( | )
+   
      * Connected commands to filter/process output:
        
 
