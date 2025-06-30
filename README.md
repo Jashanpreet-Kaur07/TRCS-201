@@ -98,7 +98,7 @@ Topics covered:
 
 1. File Permissions using chmod
 
-    Modified file permissions to control access:
+   * Modified file permissions to control access:
    
        chmod 444 filename - read only for all users
 
@@ -108,17 +108,17 @@ Topics covered:
    
 2. Shell Script Creation (.sh files)
    
-     Created basic shell scripts using nano
+    * Created basic shell scripts using nano
 
-     Saved with .sh extension
+    * Saved with .sh extension
 
-     Made executable using chmod +X
+    * Made executable using chmod +X
 
-     Ran scripts using: ./filename.sh
+    * Ran scripts using: ./filename.sh
 
 3. Input/Output Redirection
 
-     Used redirection operators:
+    * Used redirection operators:
 
        >  overwrite file
      
