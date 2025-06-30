@@ -95,24 +95,34 @@ DAY - 3
 Linux File Permissions, Redirection & Pipes
 Topics covered:
 1. File Permissions using chmod
-     Modified file permissions to control access:
+
+    Modified file permissions to control access:
+   
        chmod 444 filename - read only for all users
 
        chmod 644 filename - read/write for owner,read-only for others
 
        chmod +X filename.sh - make a shell script executable
    
-2. Shell Script Creation (.sh files)
+3. Shell Script Creation (.sh files)
+   
      Created basic shell scripts using nano
+
      Saved with .sh extension
+
      Made executable using chmod +X
+
      Ran scripts using: ./filename.sh
 
-3. Input/Output Redirection
+5. Input/Output Redirection
+
      Used redirection operators:
-       >  overwrite file
+
+     >  overwrite file
+     
        >>  append to file
-       <  read input from file
+
+    <  read input from file
 
 
 
