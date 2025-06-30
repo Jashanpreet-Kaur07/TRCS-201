@@ -78,7 +78,8 @@ Then, we covered several basic shell commands:
       whereis: Locates the binary,source and manual pages files for a command.
         Syntax: whereis command_name
 
-      whatis: Provides a brief one-line description of a commmand.  
+      whatis: Provides a brief one-line description of a commmand. 
+        Syntax: whatis command_name
 
 Here are the screenshots of commands which I had practised:
 
@@ -105,8 +106,16 @@ Topics covered:
        chmod 644 filename - read/write for owner,read-only for others
 
        chmod +X filename.sh - make a shell script executable
-   
-2. Shell Script Creation (.sh files)
+
+   ![Day  3](https://github.com/user-attachments/assets/e3148ab3-c2a6-4e5c-85ac-657e477a3121)
+
+   ![day 3](https://github.com/user-attachments/assets/26cc32b9-0bf4-4b86-9946-16da74b3b67c)
+
+   ![day3](https://github.com/user-attachments/assets/dd338718-2a8d-4fe5-9014-7e4f3f84e679)
+
+
+
+3. Shell Script Creation (.sh files)
    
     * Created basic shell scripts using nano
 
@@ -116,17 +125,17 @@ Topics covered:
 
     * Ran scripts using: ./filename.sh
 
-3. Input/Output Redirection
+4. Input/Output Redirection
 
     * Used redirection operators:
 
-       >  overwrite file
+       \> → write to a file
      
-       >>  append to file
+      \>> → append to a file
 
-       <  read input from file
+      \<  → read input from file
 
-4. Pipes ( | )
+5. Pipes ( \| )
    
      * Connected commands to filter/process output:
        
