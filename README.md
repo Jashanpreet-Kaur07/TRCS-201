@@ -201,28 +201,65 @@ Here are the screenshots of commands which I had practised:
 # Wildcards
 
 •Special characters used to match and expand filenames.
+ 
+ ![image](https://github.com/user-attachments/assets/ff365dac-ec5c-4bef-a9d5-8290f2f7b386)
 
-**Wildcard**	        **Description**	                                                   **Example**
+ # Assignment - Escaping Characters
+
+In Linux, escape characters are used to signify that the character following the escape character should be treated differently, typically as a literal character rather than as having a special function. The most commonly used escape character is the backslash \.
+Certain characters have special meanings in the shell and often need to be escaped to avoid misinterpretation. Here's a list of commonly escaped characters in Bash scripting:
+
+![image](https://github.com/user-attachments/assets/709f93c3-73f5-4113-88ad-4a14c38ba171)
+
+# PC Hardware Troubleshooting
+
+Hardware refers to the physical parts of computer system means the components which we can see and touch.
+
+![image](https://github.com/user-attachments/assets/99b4620b-1779-45e6-8e96-9ea9ff16df3c)
+
+# Components of CPU Cabinet
+
+![image](https://github.com/user-attachments/assets/6c9ed4f6-fb23-4011-9f19-260948b569ce)
+
+# Motherboard
+
+It is also known as **Printed Circuit Board**.
+
+![image](https://github.com/user-attachments/assets/424a04aa-712a-4ded-b457-11afafa6025d)
+
+# Difference between RAM and Hard Disk
+
+![image](https://github.com/user-attachments/assets/44839a99-5a44-4d65-b5cb-bf6a73aa9c70)
+
+# Difference between RAM and Cache Memory
+
+![image](https://github.com/user-attachments/assets/9d92cbb8-1625-4cf3-85ff-fb87d0aae682)
+
+# ROM
+
+ROM stands for Read-Only Memory. It is a non-volatile memory was used to operate the system. As its name refers to read-only memory, we can only read the stored programs and data.
+
+- Information stored in ROM is permanent.
+- Information and programs are stored on ROM in binary format (0s and 1s).
+- It is used in the start-up process of the computer.
+
+  ![image](https://github.com/user-attachments/assets/64f6e9eb-d3f2-46cd-97e8-ab56417fe91b)
 
 
--  *	       Matches zero or more characters.	                     ls *.txt → Lists all .txt files in the directory.
-   	   
-	   
--  ?	       Matches exactly one character.	                     ls file?.txt → Matches file1.txt, file2.txt, but not file10.txt.
+
   
 
-- [ ]	       Matches any one character inside brackets.	     ls file[1-3].txt → Matches file1.txt, file2.txt, file3.txt.
-  	   
 
-- [! ]	       Matches any character NOT in brackets.	             ls file[!1-3].txt → Matches files like file4.txt, but not file1.txt.
-  
 
-- { }	       Matches comma-separated patterns.	             ls {file1,file2}.txt → Matches file1.txt and file2.txt.
- 
 
-- \	       Escapes special characters.	                     ls file\*.txt → Searches for a file literally named file*.txt.
 
- 
+
+
+
+
+
+
+
 
 
 
