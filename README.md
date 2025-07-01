@@ -1,4 +1,4 @@
-DAY-1
+# DAY-1
 
 I am Jashanpreet kaur from department of Computer Science Engineering.Today is my first day of training as a student of second year. On first day of the training, we learned about different types of companies such as:
         
@@ -16,34 +16,39 @@ Then, we installed linux on our laptops.Here are the steps we followed:
 
 Then, we learned that 'LTS' means 'Long Term Support' , '24' represents the year , '04' represents the month , '2' represents the version updated.
 After downloading these files,we discussed about career options in computer science engineering and also talked about productive companies in each career field.
-Then, we came to know about booting and its types.Booting is the process of starting your computer and loading the operating system.
+Then, we came to know about booting and its types.
 
-Types of Booting:
+**Booting:**
+It is the process of starting your computer and loading the operating system.
+
+**Types of Booting:**
       
        Cold or Hard Booting: This refers to start a computer from a completely powered-off state.
        Soft or Warm Booting: This involves restarting a computer without completely cutting off power often done through the operating system.
 
 
-DAY - 2 
+# DAY - 2 
 
 On second day of the training, we revise the previous work and start with learning some core concepts such as:
 
-Kernel : It is a computer program that is a core of a computer's operating system with complete control over everything in the system.
+**Kernel:**
+It is a computer program that is a core of a computer's operating system with complete control over everything in the system.
 
-Shell : It is a program that acts as an interface between the user and the operating system.
+**Shell:**
+It is a program that acts as an interface between the user and the operating system.
 
 
 ![Screenshot 2025-06-27 213109](https://github.com/user-attachments/assets/6557021f-f302-4be3-bda3-8d2b1b9ad069)
 
 
-Types of Shell:
+**Types of Shell:**
 
        Bash - Most common shell (Bourne-Again Shell)
        Sh - Original shell (Bourne Shell)
        Zsh - More additional features
       Fish - Interactive and modern
 
-Categories of Shell:
+**Categories of Shell:**
 
       Command line shell
       Graphical shell
@@ -91,11 +96,11 @@ Here are the screenshots of commands which I had practised:
 
 
 
-DAY - 3
+# DAY - 3
 
 Linux File Permissions, Redirection & Pipes
 
-Topics covered:
+**Topics covered:**
 
 1. File Permissions using chmod
 
@@ -135,10 +140,39 @@ Topics covered:
 
       \<  → read input from file
 
+      ![1](https://github.com/user-attachments/assets/63413ef1-d198-43a2-83b0-0a8f7c0d88cb)
+
+      
+
 5. Pipes ( \| )
    
      * Connected commands to filter/process output:
-       
+
+       ![2](https://github.com/user-attachments/assets/56a3e618-eaaf-4404-8473-11afbb2555c2)
+
+       ![3](https://github.com/user-attachments/assets/888be08f-5ca4-48d9-86f1-12e4ef674c9c)
+
+
+# Example of using variable:
+   ![5](https://github.com/user-attachments/assets/b9b218bd-6742-4664-a6c7-0f4a10671500)
+
+   ![4](https://github.com/user-attachments/assets/37668554-ab0e-4073-990b-05af7b159162)
+
+# Example of making table of a number:
+  ![6](https://github.com/user-attachments/assets/55038f88-97f1-4e24-8ecf-3b5d5ef378c4)
+
+  ![7](https://github.com/user-attachments/assets/818dba48-b14f-4a59-99f2-ebc7a7cfb49e)
+
+# Example of comparing two numbers:
+  ![8](https://github.com/user-attachments/assets/9138af8a-5b21-48ea-abe9-c4a4a1b6a6e2)
+  
+  ![9](https://github.com/user-attachments/assets/96a7116d-c68a-4d69-8137-a1a1cc2346c6)
+
+
+
+
+
+    
 
 
 
