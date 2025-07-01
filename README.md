@@ -167,8 +167,10 @@ Linux File Permissions, Redirection & Pipes
   ![8](https://github.com/user-attachments/assets/9138af8a-5b21-48ea-abe9-c4a4a1b6a6e2)
   
   ![9](https://github.com/user-attachments/assets/96a7116d-c68a-4d69-8137-a1a1cc2346c6)
+  
 
-
+ # DAY - 4
+ 
 
 
 
