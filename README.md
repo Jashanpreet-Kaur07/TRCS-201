@@ -1,3 +1,5 @@
+# Daily Diary
+
 # DAY-1
 
 I am Jashanpreet kaur from department of Computer Science Engineering.Today is my first day of training as a student of second year. On first day of the training, we learned about different types of companies such as:
@@ -96,9 +98,7 @@ Here are the screenshots of commands which I had practised:
 
 
 
-# DAY - 3
-
-Linux File Permissions, Redirection & Pipes
+# DAY - 3   **[Linux File Permissions, Redirection & Pipes]**
 
 **Topics covered:**
 
@@ -169,7 +169,59 @@ Linux File Permissions, Redirection & Pipes
   ![9](https://github.com/user-attachments/assets/96a7116d-c68a-4d69-8137-a1a1cc2346c6)
   
 
- # DAY - 4
+ # DAY - 4   
+
+ **File Compression**
+ 
+ It is the process of reducing the size of a file or group of files, making them take up less storage space.
+
+ **Why do we compress files?**
+ 
+ - To reduce their size
+ - To save storage space
+ - To transfer files faster
+
+**Syntax to Compress Files:** gzip filename 
+
+**Example:** gzip notes.txt **→ Creates** notes.txt.gz
+
+(It deletes notes.txt)
+
+**Syntax to Uncompress Files:** gunzip filename.txt.gz  
+
+**If want to keep the original file too**
+**Use -k flag**
+
+**Syntax:** gzip -k notes.txt
+
+**Now:** 
+- notes.txt (kept)
+- notes.txt.gz (created)
+
+# Wildcards
+
+•Special characters used to match and expand filenames.
+
+**Wildcard**	        **Description**	                                                   **Example**
+
+
+-  *	       Matches zero or more characters.	                     ls *.txt → Lists all .txt files in the directory.
+   	   
+	   
+-  ?	       Matches exactly one character.	                     ls file?.txt → Matches file1.txt, file2.txt, but not file10.txt.
+  
+
+- [ ]	       Matches any one character inside brackets.	     ls file[1-3].txt → Matches file1.txt, file2.txt, file3.txt.
+  	   
+
+- [! ]	       Matches any character NOT in brackets.	             ls file[!1-3].txt → Matches files like file4.txt, but not file1.txt.
+  
+
+- { }	       Matches comma-separated patterns.	             ls {file1,file2}.txt → Matches file1.txt and file2.txt.
+ 
+
+- \	       Escapes special characters.	                     ls file\*.txt → Searches for a file literally named file*.txt.
+
  
 
 
