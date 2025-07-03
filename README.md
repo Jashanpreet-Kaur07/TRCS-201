@@ -237,6 +237,15 @@ Escape Character	Meaning
 
 Hardware refers to the physical parts of computer system means the components which we can see and touch.
 
+| Category               | Description                                     | Examples                                              |
+|------------------------|-------------------------------------------------|-------------------------------------------------------|
+| 1. Input Devices       | Used to enter data into the computer            | Keyboard, Mouse, Scanner, Microphone, Webcam          |
+| 2. Output Devices      | Used to display or output results from the computer | Monitor, Printer, Speaker, Projector                |
+| 3. Processing Unit     | Performs all calculations and tasks             | CPU (Central Processing Unit)                         |
+| 4. Storage Devices     | Used to store data permanently or temporarily   | Hard Drive (HDD), SSD, USB drive, CD/DVD              |
+| 5. Communication Devices | Used for data exchange between computers        | Modem, Network Interface Card (NIC), Router           |
+
+
 ![image](https://github.com/user-attachments/assets/99b4620b-1779-45e6-8e96-9ea9ff16df3c)
 
 # Components of CPU Cabinet
