@@ -201,6 +201,15 @@ Here are the screenshots of commands which I had practised:
 # Wildcards
 
 •Special characters used to match and expand filenames.
+| Wildcard | Meaning                   | Example                 | Matches                  |
+|----------|---------------------------|-------------------------|--------------------------|
+| `*`      | Matches zero or more characters | `ls *.txt`              | a.txt, notes.txt, file123.txt |
+| `?`      | Matches exactly one character | `ls file?.txt`          | file1.txt, fileA.txt (not file12.txt) |
+| `[]`     | Matches one character from the set | `ls file[12].txt`       | file1.txt, file2.txt     |
+| `[a-z]`  | Matches one character from a range | `ls file[a-c].txt`      | filea.txt, fileb.txt, filec.txt |
+| `[! ]`   | Matches one character not in set | `ls file[10-9].txt`     | fileX.txt (not file1.txt) |
+| `{}`     | Brace expansion for multiple patterns | `cp file{1,2,3}.txt /backup/` | file1.txt, file2.txt, file3.txt |
+
 Wildcard	Meaning	Example	Matches
 *	Matches zero or more characters	ls *.txt	a.txt, notes.txt, file123.txt
 ?	Matches exactly one character	ls file?.txt	file1.txt, fileA.txt (not file12.txt)
