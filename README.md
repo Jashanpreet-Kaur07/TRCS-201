@@ -221,9 +221,15 @@ Wildcard	Meaning	Example	Matches
  ![image](https://github.com/user-attachments/assets/ff365dac-ec5c-4bef-a9d5-8290f2f7b386)
 
  # Assignment - Escaping Characters
-
-In Linux, escape characters are used to signify that the character following the escape character should be treated differently, typically as a literal character rather than as having a special function. The most commonly used escape character is the backslash \.
-Certain characters have special meanings in the shell and often need to be escaped to avoid misinterpretation. Here's a list of commonly escaped characters in Bash scripting:
+Escape Character	Meaning	
+| Wildcard | Meaning                   | Example                 | Matches                  |
+|----------|---------------------------|-------------------------|--------------------------|
+| `*`      | Matches zero or more characters | `ls *.txt`              | a.txt, notes.txt, file123.txt |
+| `?`      | Matches exactly one character | `ls file?.txt`          | file1.txt, fileA.txt (not file12.txt) |
+| `[]`     | Matches one character from the set | `ls file[12].txt`       | file1.txt, file2.txt     |
+| `[a-z]`  | Matches one character from a range | `ls file[a-c].txt`      | filea.txt, fileb.txt, filec.txt |
+| `[! ]`   | Matches one character not in set | `ls file[10-9].txt`     | fileX.txt (not file1.txt) |
+| `{}`     | Brace expansion for multiple patterns | `cp file{1,2,3}.txt /backup/` | file1.txt, file2.txt, file3.txt |
 
 ![image](https://github.com/user-attachments/assets/709f93c3-73f5-4113-88ad-4a14c38ba171)
 
