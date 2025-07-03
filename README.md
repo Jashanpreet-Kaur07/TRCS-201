@@ -210,18 +210,10 @@ Here are the screenshots of commands which I had practised:
 | `[! ]`   | Matches one character not in set | `ls file[10-9].txt`     | fileX.txt (not file1.txt) |
 | `{}`     | Brace expansion for multiple patterns | `cp file{1,2,3}.txt /backup/` | file1.txt, file2.txt, file3.txt |
 
-Wildcard	Meaning	Example	Matches
-*	Matches zero or more characters	ls *.txt	a.txt, notes.txt, file123.txt
-?	Matches exactly one character	ls file?.txt	file1.txt, fileA.txt (not file12.txt)
-[ ]	Matches one character from the set	ls file[12].txt	file1.txt, file2.txt
-[a-z]	Matches one character from a range	ls file[a-c].txt	filea.txt, fileb.txt, filec.txt
-[! ]	Matches one character not in set	ls file[!0-9].txt	filea.txt, fileX.txt (not file1.txt)
-{ }	Brace expansion for multiple patterns	cp file{1,2,3}.txt /backup/	file1.txt, file2.txt, file3.txt
- 
- ![image](https://github.com/user-attachments/assets/ff365dac-ec5c-4bef-a9d5-8290f2f7b386)
+
 
  # Assignment - Escaping Characters
-Escape Character	Meaning	
+
 | Wildcard | Meaning                   | Example                 | Matches                  |
 |----------|---------------------------|-------------------------|--------------------------|
 | `*`      | Matches zero or more characters | `ls *.txt`              | a.txt, notes.txt, file123.txt |
@@ -231,7 +223,7 @@ Escape Character	Meaning
 | `[! ]`   | Matches one character not in set | `ls file[10-9].txt`     | fileX.txt (not file1.txt) |
 | `{}`     | Brace expansion for multiple patterns | `cp file{1,2,3}.txt /backup/` | file1.txt, file2.txt, file3.txt |
 
-![image](https://github.com/user-attachments/assets/709f93c3-73f5-4113-88ad-4a14c38ba171)
+
 
 # PC Hardware Troubleshooting
 
@@ -245,8 +237,6 @@ Hardware refers to the physical parts of computer system means the components wh
 | 4. Storage Devices     | Used to store data permanently or temporarily   | Hard Drive (HDD), SSD, USB drive, CD/DVD              |
 | 5. Communication Devices | Used for data exchange between computers        | Modem, Network Interface Card (NIC), Router           |
 
-
-![image](https://github.com/user-attachments/assets/99b4620b-1779-45e6-8e96-9ea9ff16df3c)
 
 # Components of CPU Cabinet
 
