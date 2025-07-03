@@ -240,7 +240,16 @@ Hardware refers to the physical parts of computer system means the components wh
 
 # Components of CPU Cabinet
 
-![image](https://github.com/user-attachments/assets/6c9ed4f6-fb23-4011-9f19-260948b569ce)
+| Category           | Examples                                 | Purposes                                                                    |
+|--------------------|------------------------------------------|-----------------------------------------------------------------------------|
+| Input Devices      | Keyboard, Mouse, Scanner, Microphone     | Used to enter data into the computer, allows user interaction.              |
+| Processing Devices | CPU (Central Processing Unit), GPU (Graphics Processing Unit) | Manages and processes data; executes instructions.                        |
+| Output Devices     | Monitor, Printer, Speakers               | Displays or outputs information and results processed by the computer.      |
+| Storage Devices    | Hard Disk Drive (HDD), Solid State Drive (SSD), USB Flash Drive | Retains data and information for long-term access.                        |
+| Motherboards       | Main motherboard board                   | The main circuit board connecting and facilitating communication among components. |
+| Power Supply Units (PSU) | PSU                                      | Converts electrical power and provides it to the computer components.       |
+| Cooling Devices    | Fans, Heat sinks                         | Maintains optimal operating temperatures of internal components.            |
+| Networking         | Network interface Card (NIC)             | Connects the computer to networks for communication and internet access.       |
 
 # Motherboard
 
