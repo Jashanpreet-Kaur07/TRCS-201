@@ -225,7 +225,7 @@ Here are the screenshots of commands which I had practised:
 
 
 
-# PC Hardware Troubleshooting
+# Hardware 
 
 Hardware refers to the physical parts of computer system means the components which we can see and touch.
 
@@ -274,6 +274,128 @@ ROM stands for Read-Only Memory. It is a non-volatile memory was used to operate
 - It is used in the start-up process of the computer.
 
   ![image](https://github.com/user-attachments/assets/64f6e9eb-d3f2-46cd-97e8-ab56417fe91b)
+
+
+# DAY - 5
+
+# Computer Hardware and Troubleshooting
+
+**HDD**
+An HDD (Hard Disk Drive) is a non-volatile storage device commonly used in computers to store the operating system, software applications, files, and data persistently. It retains data even when the computer is powered off. It consists of one or more rigid rotating disks (platters) coated with magnetic material, along with read/write heads that move across the disk surfaces to access data.
+
+**Features of HDD**
+
+| Feature                   | Description                     | Typical Value                  |
+|---------------------------|---------------------------------|-------------------------------|
+| Storage Capacity          | The amount of data the HDD can store | 1TB, 2TB, 4TB                 |
+| Rotational Speed          | Speed at which platters spin     | 5400 RPM, 7200 RPM             |
+| Interface                 | Connection interface             | SATA III, NVMe                 |
+| Cache Size               | Internal buffer memory           | 64MB, 128MB                   |
+| Form Factor              | Physical size of the drive       | 3.5 inch, 2.5 inch             |
+| Mean Time Between Failures (MTBF) | Reliability estimate         | 1 million hours                |
+
+**Types of HDD**
+
+🖥️ 1. Desktop HDD
+
+- Use: Regular computers at home or office
+
+- Size: Usually 3.5 inches
+
+- Features: Good storage capacity, average speed
+
+- Example Use: Storing files, games, and software for personal or office work
+
+💻 2. Laptop HDD
+
+- Use: Portable computers
+
+- Size: Smaller — typically 2.5 inches
+
+- Features: Lower power usage, more compact
+
+- Example Use: Lightweight storage for mobile computing
+
+🏢 3. Enterprise HDD
+
+- Use: Servers and data centers
+
+- Size: 2.5 or 3.5 inches
+
+- Features: Designed for 24/7 operation, fast, highly reliable
+
+- Example Use: Handling large databases, cloud storage, high-performance tasks
+
+📡 4. NAS (Network Attached Storage) HDD
+
+- Use: Storage shared across multiple devices in a network
+
+- Size: Typically 3.5 inches
+
+- Features: Optimized for continuous use, built for RAID environments
+
+- Example Use: Small business backups, home media servers
+
+🎥 5. Surveillance HDD
+
+- Use: Security camera systems
+
+- Size: Often 3.5 inches
+
+- Features: Can handle constant writing from video feeds, works non-stop
+
+- Example Use: Recording footage from multiple cameras over time
+
+**If your PC is Running Slow**
+
+| ⚠️ Problem                  | 🛠️ Fix                                                |
+|----------------------------|--------------------------------------------------------|
+| Too many startup programs  | Disable from Task Manager → Startup tab               |
+| Background processes       | End unnecessary tasks via Task Manager                |
+| Low disk space             | Uninstall unused apps, clean up temporary files       |
+| Outdated software/drivers | Update Windows and drivers regularly                  |
+| Malware or viruses         | Run a full system antivirus scan                      |
+| Fragmented hard drive      | Use Defragment tool (for HDDs only)                   |
+| Overheating                | Clean fans, improve airflow                          |
+| Old hardware               | Upgrade to SSD or add more RAM                        |
+
+# **Printer Issues and Solutions**
+| ⚠️ Issue                          | 🛠️ Solution                                                                 |
+|----------------------------------|------------------------------------------------------------------------------|
+| Paper jams                       | Remove jammed paper carefully; check alignment and avoid overfilling tray   |
+| Slow printing                    | Lower print quality settings; update drivers; clear print queue             |
+| Faded or missing colors          | Replace ink/toner; clean print heads; use correct paper type                |
+| Printer offline                  | Check network connection; restart printer; set as default printer           |
+| Print jobs sent to wrong printer | Set correct default printer in system settings                              |
+
+# BSOD
+BSOD stands for Blue Screen of Death
+
+🧠 What It Means:
+
+- It's a stop error that appears when Windows encounters a critical system failure.
+
+- The system crashes and shows a blue screen with an error code.
+
+⚠️ Common Causes:
+
+- Faulty hardware: Bad RAM, overheating, failing hard drives
+
+- Driver issues: Outdated or incompatible drivers
+
+- Corrupted system files: Often from failed updates or malware
+
+- Software conflicts: Especially with low-level system software
+
+- Malware: Can mess with system stability
+
+# **BIOS/UEFI Settings and POST Errors
+
+🧩 Term                     | 📘 Meaning                                                             |
+|----------------------------|------------------------------------------------------------------------|
+| BIOS                       | Basic Input/Output System; firmware that initializes hardware at boot  |
+| UEFI                       | Unified Extensible Firmware Interface; modern replacement for BIOS     |
+
 
 
 
