@@ -389,15 +389,22 @@ BSOD stands for Blue Screen of Death
 
 - Malware: Can mess with system stability
 
-# **BIOS/UEFI Settings and POST Errors
+# **BIOS/UEFI Settings and POST Errors**
 
 🧩 Term                     | 📘 Meaning                                                             |
 |----------------------------|------------------------------------------------------------------------|
 | BIOS                       | Basic Input/Output System; firmware that initializes hardware at boot  |
 | UEFI                       | Unified Extensible Firmware Interface; modern replacement for BIOS     |
 
-
-
+**BIOS Settings**
+| BIOS Setting             | Description                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| Boot Order               | Determines the sequence of devices the system checks to boot the OS        |
+| Secure Boot              | Ensures only trusted OS/software boots, improving security                 |
+| SATA Mode                | Configures hard drive interface: AHCI, IDE, or RAID                        |
+| CPU Virtualization       | Enables virtualization support for running virtual machines                |
+| XMP (Extreme Memory Profile) | Loads pre-defined RAM overclocking profiles                      |
+| Fan Control              | Allows customization of fan speeds based on temperature                    |
 
   
 
