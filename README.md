@@ -397,6 +397,7 @@ BSOD stands for Blue Screen of Death
 | UEFI                       | Unified Extensible Firmware Interface; modern replacement for BIOS     |
 
 **BIOS Settings**
+
 | BIOS Setting             | Description                                                                 |
 |--------------------------|-----------------------------------------------------------------------------|
 | Boot Order               | Determines the sequence of devices the system checks to boot the OS        |
@@ -406,17 +407,255 @@ BSOD stands for Blue Screen of Death
 | XMP (Extreme Memory Profile) | Loads pre-defined RAM overclocking profiles                      |
 | Fan Control              | Allows customization of fan speeds based on temperature                    |
 
+
+ **What is POST?**
+
+POST stands for Power-On Self-Test.It checks hardware before booting OS.
+
+**Common POST Errors**
+
+| POST Error Code | Meaning                                | Possible Cause                          | Suggested Fix                          |
+|-----------------|----------------------------------------|-----------------------------------------|----------------------------------------|
+| 1 beep          | Memory refresh failure                 | Faulty RAM or motherboard               | Reseat or replace RAM                  |
+| 2 beeps         | Parity circuit failure                 | RAM issue                               | Replace RAM                            |
+| 3 beeps         | Base 64K memory failure                | First 64KB of RAM is bad                | Replace RAM                            |
+| 4 beeps         | System timer failure                   | Motherboard timer not working           | Replace motherboard                    |
+| 5 beeps         | Processor error                        | CPU not functioning                     | Reseat or replace CPU                  |
+| 6 beeps         | Keyboard controller failure            | Keyboard or controller issue            | Check keyboard connection or replace   |
+| 7 beeps         | Virtual mode exception error           | CPU or motherboard issue                | Replace CPU or motherboard             |
+| 8 beeps         | Display memory error                   | Graphics card issue                     | Reseat or replace graphics card        |
+| 9 beeps         | ROM BIOS checksum failure              | BIOS corruption                         | Reflash or replace BIOS chip           |
+| 10 beeps        | CMOS shutdown register read/write fail | CMOS battery or motherboard issue       | Replace CMOS battery or motherboard    |
+
+**Accessing and Resetting BIOS**
+
+| Task                | Step-by-Step Instructions                                                       | Notes                                     |
+|---------------------|----------------------------------------------------------------------------------|-------------------------------------------|
+| Accessing BIOS       | 1. Restart or turn on your PC                                                   |                                            |
+|                      | 2. Immediately press the BIOS key (usually `DEL`, `F2`, `ESC`, or `F10`)        | Key varies by motherboard brand           |
+|                      | 3. Wait for BIOS/UEFI setup interface to load                                   | Use a wired keyboard if USB isn't working |
+| Resetting BIOS       | 1. Access the BIOS using the steps above                                        |                                            |
+|                      | 2. Navigate to the "Exit" or "Save & Exit" tab                                  | This tab usually contains reset options   |
+|                      | 3. Select "Load Setup Defaults" or "Reset to Default Settings"                  | Confirms restoring factory settings        |
+|                      | 4. Save changes and exit BIOS (`F10`)                                           | PC will reboot with default settings      |
+
+
+# DAY-6 (System Recovery, Backup & Network Tools)
+
+**Safe Mode**
+
+Safe Mode is a diagnostic startup mode in operating systems like Windows, macOS, and Android that loads only the essential system files and drivers. It’s designed to help you troubleshoot issues when your device isn’t functioning properly.
+
+**🛠️ Key Features of Safe Mode:**
+
+- Loads minimal drivers (no fancy graphics, sound, or network unless you choose Safe Mode with Networking)
+- Disables third-party apps and startup programs
+- Helps isolate issues caused by faulty drivers, software, or malware
+- Often used to uninstall problematic updates or drivers
   
+**💡 Types of Safe Mode:**
+
+| Mode                      | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------| 
+| Safe Mode                 | Basic troubleshooting with minimal drivers and no internet                  |
+| Safe Mode with Networking | Adds network drivers so you can access the internet                        |
+| Safe Mode with Command Prompt | Opens a command-line interface for advanced troubleshooting         |
+
+**Recovery Tools in Windows**
+
+ Recovery tools help you troubleshoot, repair, and restore your system to a stable state without needing a complete reinstall.
+
+ | Recovery Tool               | Purpose                                                                 | How to Access                                      |
+|----------------------------|-------------------------------------------------------------------------|----------------------------------------------------|
+| System Restore             | Reverts system files and settings to a previous state                  | Control Panel > Recovery > Open System Restore     |
+| Reset This PC              | Reinstalls Windows (with or without keeping personal files)            | Settings > System > Recovery > Reset this PC       |
+| Startup Repair             | Fixes boot issues preventing Windows from loading                      | WinRE > Troubleshoot > Advanced Options > Startup Repair |
+| Recovery Drive             | Creates a bootable USB drive for system recovery                       | Control Panel > Recovery > Create Recovery Drive   |
+
+**Operating System Repair**
+
+| Repair Method                  | Description                                                                 | How to Use                                                   |
+|-------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------|
+| System File Checker (SFC)     | Scans and repairs corrupted system files                                   | Run `sfc /scannow` in Command Prompt (Admin)                |
+| Deployment Imaging (DISM)     | Repairs Windows image and component store                                  | Run `DISM /Online /Cleanup-Image /RestoreHealth`            |
+| Startup Repair                | Fixes boot issues preventing Windows from loading                          | Access via WinRE > Troubleshoot > Advanced Options          |
+| System Restore                | Reverts system to a previous working state                                  | Control Panel > Recovery > Open System Restore              |
+| Reset This PC                 | Reinstalls Windows (option to keep or remove personal files)                | Settings > System > Recovery > Reset this PC                |
+| Bootrec Commands              | Repairs boot records and configuration data                                | Use `bootrec /fixmbr`, `/fixboot`, `/rebuildbcd` in CMD     |
+| Safe Mode                     | Loads minimal drivers for troubleshooting                                   | Access via Advanced Startup > Startup Settings              |
+| Installation Media Repair     | Reinstalls or repairs Windows using bootable USB/DVD                        | Boot from media > Select "Repair your computer"             |
+
+**Signs of Virus/Malware Infections**
+
+| Slow system performance          |
+| Frequent crashes or freezes      |
+| Annoying pop-ups                 |
+| Homepage or search engine changes|
+| Unusual network activity         |
+| Unknown apps or files            |
+| Disabled antivirus or firewall   |
+| Fake virus alerts                |
+
+**Virus & Malware Removal Methods**
+
+- Boot your system into Safe Mode to prevent malware from launching.
+- Disconnect from the internet to block external communication by malicious software.
+- Delete temporary files from system folders to remove hidden malware traces.
+- Use System Restore to roll back your PC to a clean previous state.
+- Run a full Antivirus Scan using Microsoft Defender or trusted third-party tools.
+
+**Methods for Backing Up Windows**
+
+- Windows Backup App – Backs up folders, apps, settings, and Wi-Fi info to OneDrive.
+- File History – Automatically saves versions of personal files like Documents and Pictures.
+- System Image Backup – Creates a full snapshot of your system, including OS and apps.
+- System Restore Points – Saves system settings before major changes (not personal files).
+- OneDrive Folder Sync – Syncs Desktop, Documents, and Pictures to the cloud manually.
+
+**RJ45 Connector**
+
+RJ45 is the standard connector used for Ethernet networking.
+
+**RJ-45 Cable Making (T568B Standard):**
+
+| Pin | Wire Color     | Use/Signal Description         |
+|-----|----------------|-------------------------------|
+| 1   | White-Orange   | Transmit + (TX1+)             |
+| 2   | Orange         | Transmit – (TX1–)             |
+| 3   | White-Green    | Receive + (RX+)               |
+| 4   | Blue           | Bi-Directional Transmit +     |
+| 5   | White-Blue     | Bi-Directional Transmit –     |
+| 6   | Green          | Receive – (RX–)               |
+| 7   | White-Brown    | Bi-Directional Transmit +     |
+| 8   | Brown          | Bi-Directional Transmit –     |
+
+**🔧 Steps to Make the Cable:**
+
+- Strip the outer jacket of the Ethernet cable (about 1 inch).
+- Untwist the wire pairs and straighten them.
+- Arrange wires in the T568B order listed above.
+- Trim the wires evenly so they’re about 0.5 inch long.
+- Insert wires into the RJ45 connector, making sure each wire reaches the end.
+- Crimp the connector using the crimping tool.
+- Repeat the process for the other end of the cable (use same order for straight-through cable).
 
 
+# DAY-7 (Networking Fundamentals)
 
+**Hosts in a Network**
 
+In networking, a host refers to any device connected to a network that can send or receive data. These devices play a central role in communication and resource sharing across the network.
 
+**Network Definition**
 
+A network is a system of interconnected devices or entities that communicate and share resources with each other.
 
+**Key Features**
 
+- Security
+- Performance
+- Data Sharing
+- Backup & Recovery
+- Hardware/Software Compatibility
+- Connectivity
 
+# **IP Address Basics**
 
+An IP address (Internet Protocol address) is a unique identifier assigned to each device connected to a network that uses the Internet Protocol for communication.
+
+**Types**
+
+ Types of IP Addresses:
+- Public IP: Used to identify devices on the internet
+- Private IP: Used within local networks (e.g., home or office)
+
+**Properties**
+
+- Uniqueness: Each device on a network must have a unique IP address to avoid conflicts.
+- Universal: Same structure used globally.
+
+**IPv4 vs IPv6**
+
+| Feature                  | IPv4                                  | IPv6                                      |
+|--------------------------|----------------------------------------|-------------------------------------------|
+| Address Length           | 32-bit                                 | 128-bit                                   |
+| Address Format           | Decimal (e.g., 192.168.0.1)            | Hexadecimal (e.g., 2001:0db8::1)          |
+| Total Addresses          | ~4.3 billion                           | ~340 undecillion (3.4×10³⁸)               |
+| Address Classes          | Yes (A, B, C, D, E)                    | No classes                                |
+
+**IP Address Representation**
+
+🔢 Binary Notation: 
+- Displays the IP address as 32 bits (for IPv4), grouped into four 8-bit segments.
+- Example: 192.168.1.1 becomes
+11000000.10101000.00000001.00000001
+
+⚪ Dotted-Decimal Notation:
+- The human-friendly format using four decimal numbers separated by dots.
+- Each number ranges from 0 to 255, representing one byte (8 bits).
+- Example: 192.168.1.1
+
+**Classful Addressing (IPv4)**
+
+🧠 What Is Classful Addressing?
+Classful addressing divides the 32-bit IPv4 address space into five classes: A, B, C, D, and E. Each class has a specific range, default subnet mask, and intended use.
+
+| Class | Starting Bits | IP Range                   | Default Subnet Mask | Intended Use                     |
+|-------|----------------|----------------------------|----------------------|----------------------------------|
+| A     | 0              | 0.0.0.0 – 127.255.255.255   | 255.0.0.0            | Very large networks (e.g., ISPs) |
+| B     | 10             | 128.0.0.0 – 191.255.255.255 | 255.255.0.0          | Medium-sized networks            |
+| C     | 110            | 192.0.0.0 – 223.255.255.255 | 255.255.255.0        | Small networks (e.g., LANs)      |
+| D     | 1110           | 224.0.0.0 – 239.255.255.255 | N/A                  | Multicasting                     |
+| E     | 1111           | 240.0.0.0 – 255.255.255.255 | N/A                  | Reserved for future use          |
+
+**Subnet Mask**
+
+A subnet mask is a 32-bit number used in IPv4 networking to divide an IP address into two parts: the network portion and the host portion.
+
+**MAC Address**
+
+A MAC address (Media Access Control address) is a unique identifier assigned to a device’s network interface card (NIC) for communication at the data link layer of the OSI model.
+
+**DNS-Domain Name System**
+
+The Domain Name System (DNS) is like the internet’s phone book — it translates human-friendly website names (like www.google.com) into machine-friendly IP addresses (like 142.250.182.4).
+
+**Default Gateway**
+
+A default gateway is the device (usually a router) that acts as the exit point from your local network to other networks — like the internet.
+
+**CIDR-Classless Inter-Domain Routing**
+
+🧠 What CIDR Does:
+- Allows flexible IP address allocation using variable-length subnet masks (VLSM)
+- Reduces waste of IP addresses by assigning only what’s needed
+- Enables route aggregation (supernetting), which simplifies routing tables
+- Supports both IPv4 and IPv6 addressing
+
+**Types of Network Cables**
+
+- Coaxial Cable – Used for cable TV, CCTV, and legacy Ethernet connections.
+- Twisted Pair Cable (UTP/STP) – Commonly used in LANs for Ethernet and telephone wiring.
+- Fiber Optic Cable – Ideal for high-speed, long-distance data transmission with minimal interference.
+
+**Numerical:**
+
+*Given: 205.150.65.0/26
+
+1. Subnet Mask:
+   26 bits → 255.255.255.192
+
+2. Subnets Possible:
+   /26 from Class C (/24) → 2 bits → 2² = 4
+
+3. Hosts per Subnet:
+   32-26=6 bits → 2⁷-2=62
+   
+4. Network IP:
+   First Subnet starts at → 205.150.65.0
+
+5. Broadcast IP:
+   First Subnet ends at → 205.150.65.63        
 
 
 
